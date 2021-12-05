@@ -3,7 +3,10 @@
 
 
 
-<?php ?>
+<?php 
+echo "test";
+
+?>
 
 
 
@@ -34,9 +37,7 @@
                     <input type="submit" name="enviar" value="Enviar Mensagem">
 
                     <?php 
-                        if ( isset($mensagem) ) {
-                            echo "<p>" . $mensagem . "</p>";
-                        }
+                        
                     ?>
                 </form>
             </div>
